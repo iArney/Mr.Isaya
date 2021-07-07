@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("automatedOffice.jpg");
+    background-size: cover;
+    background-color: white;
+}
+
+.gapContainer{
+    height: 1.5em;
+    background-color: black;
+
+}
+
+
+nav{
+    position:sticky;
+    top: 0;
+    height: 50px;
+    background-color:rgb(25, 4, 59);
+    font-family: sans-serif;
+}
+
+nav ul{
+    
+    float: right;
+    display:flex;
+    font-weight:bold;
+    list-style: none;
+    text-decoration: none;
+    margin: 3px 15em;
+}
+
+
+nav ul li a{
+    padding: 0 20px;
+    text-align:center;
+    text-decoration: none;
+    color:blue;
+    
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: #cccccc;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+.links{
+    
+    text-align: center;
+          float: right;
+          height: 12em;
+          
+          width: 9em;
+          margin: 2em;
+          margin-right: 2px; 
+          font-family: Arial, Helvetica, sans-serif;
+          border-radius: 3px;    
+          background-color: #cccccc;
+}
+.links ul{
+          list-style: none;
+          
+}
+.links ul li a{
+    text-decoration: none;
+    display: block;
+
+}
+.links ul li:hover{
+    background: black ;
+    border-radius: 3px;
+    border;
+    
+}
+
+.links ul li a:hover{
+    color: rgb(247, 245, 245);
+    transition: 0.5s;
+    
+}
+
+.article-text{
+    margin-left: 2px;
+    height: 43em;
+    width: 33em;
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+
+}
+.article-text img{
+    width: 520px;
+    height: 350px;
+}
+
+.aside-form{
+    background-image: url("dream1.jpg");
+    font-size: 105%;
+    text-align: center;
+    float: center;
+    background-color: aqua;
+    margin: 1em 20em;
+    height: 12em;
+    width: 21em;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    height: 50px;
+    background-color: rgb(30, 30, 66);
+    color: white;
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.footer footer p{
+    margin-top: 8px;
+    font-family: sans-serif;
+    
+}

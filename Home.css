@@ -1,0 +1,217 @@
+* {
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("dream2.webp");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.logo{
+    background-color: rgb(122, 150, 243);
+    font-style: inherit;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+.gapContainer{
+        height: 1.5em;
+        background-color: black;
+
+}
+
+/*navigation{
+    height: 50px;
+    
+    background-color: rgb(11, 11, 12) ;
+    opacity: 0.8;
+    
+}
+.navigation ul{
+    padding: 1.5em;
+    float: right;
+    list-style: none;
+    display: flex;
+}
+.navigation ul li{
+    width: 5em;
+    background: yellow;
+    margin-right: 2em;
+    
+
+}*/
+
+
+
+nav{
+    position:sticky;
+    top: 0;
+    height: 50px;
+    background-color:rgb(25, 4, 59);
+    font-family: sans-serif;
+}
+
+nav ul{
+    
+    float: right;
+    display:flex;
+    font-weight:bold;
+    list-style: none;
+    text-decoration: none;
+    margin: 3px 15em;
+}
+
+
+nav ul li a{
+    padding: 0 20px;
+    text-align:center;
+    text-decoration: none;
+    color:blue;
+    
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: #cccccc;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+
+.title{
+    
+    padding: 1em;
+    color:white;
+    margin-top: 60px;
+    margin-left: 350px;
+    width: 20em;
+    text-align: center;
+    font-size: 125%;
+    
+    
+    
+}
+
+.title marquee{
+
+    font-family: sans-serif;
+    color:rgb(89, 89, 236);
+    
+    
+    
+}
+
+.office{
+   
+    height: 14em;
+    
+
+}
+.officeImage{
+    object-fit: cover;
+    height: 14em;
+    padding: 20px;
+    margin-top: 2.2em;
+    float: right;
+}
+.machineImage{
+    object-fit: cover;
+    height: 13.8em;
+    padding: 19px;
+    float: right;
+    width: 17em;
+    margin-top: 1.3em;
+    
+}
+.homeImage{
+
+    object-fit: cover;
+    height: 12.6em;
+    margin-top: 1em;
+    padding: 19px;
+    width: 22em;
+    float: right;
+    
+}
+
+
+
+
+.textBody p{
+        color: White;
+        font-family: sans-serif;
+        text-align: center;       
+}
+
+.textBody ol{
+    font-family: monospace;
+    font-size: 140%;
+    text-align: center;
+}
+
+.bodygap{
+    height: 2em;
+}
+
+.textBody{
+    color: white;
+    padding: 2.5em;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(30, 30, 66);
+    color: white;
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+footer p{
+    margin-top: 8px;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
